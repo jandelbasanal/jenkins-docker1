@@ -6,4 +6,4 @@ Jenkinsfile1 - uses agent in top level that means all stages will use this conta
 
 Jenkinsfile2 - it uses different agent container in every stages
 
-Jenkinsfile2 - it uses dockerfile for the agent container
+Jenkinsfile3 - it uses dockerfile for the agent container
