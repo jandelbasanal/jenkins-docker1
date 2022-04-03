@@ -3,10 +3,11 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                sh 'hostname'
-                sh 'node --version'
-                sh 'git --version'
-                sh 'çurl --version'
+                sh '''
+                node --version
+                git --version
+                çurl --version
+                ''' 
             }
         }
     }
