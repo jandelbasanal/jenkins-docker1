@@ -6,6 +6,7 @@ pipeline {
                 sh 'hostname'
                 sh 'node --version'
                 sh 'git --version'
+                sh 'çurl --version'
             }
         }
     }
